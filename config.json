@@ -8,7 +8,7 @@
     "uyumtasks": "CommandOrControl+Tab"
   },
   "webERP": {
-    "title": "Muhasebe",
+    "title": "MuhasebeCRM",
     "listen": 8000,
     "broadcast": 8001,
     "refreshTimeout": 180000,
