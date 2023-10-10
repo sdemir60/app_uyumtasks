@@ -287,52 +287,100 @@ function autoList() {
 function addHeader() {
 
     var header, headerStr;
-    var caseConfig, caseWorkConfig;
-    var caseDefaultValues, caseWorkDefaultValues;
-    var caseSubButtons, caseWorkSubButtons;
+    var caseConfig, caseWorkConfig,caseSubjectListConfig;
+    var caseDefaultValues, caseWorkDefaultValues,caseSubjectList;
+    var caseSubButtons, caseWorkSubButtons,caseSubjectSubButtons;
 
     header = document.createElement('div');
     headerStr = fs.readFileSync(path.join(__dirname, 'home-header.html'), 'utf8');
 
     caseConfig = config.get("case");
     caseWorkConfig = config.get("caseWork");
+    caseSubjectListConfig = config.get("caseSubjectList");
 
     caseDefaultValues = caseConfig ? caseConfig.defaultValues : null;
     caseWorkDefaultValues = caseWorkConfig ? caseWorkConfig.defaultValues : null;
+    caseSubjectList = caseSubjectListConfig ? caseSubjectListConfig : null;
 
     caseSubButtons = "";
     caseWorkSubButtons = "";
+    caseSubjectSubButtons = "";
 
-    if (caseDefaultValues) {
+    if (caseSubjectList) {
 
-        caseDefaultValues.forEach(function (defaultValue) {
+        if (caseDefaultValues ) {
 
-            caseSubButtons += '<div class="sub-button">\n' +
-                '   <button class="button button-ml button-ml-p button--winona" data-text="' + (defaultValue.shortcut || defaultValue.name) + '" onclick="addNew(\'case\',\'' + defaultValue.name + '\')">\n' +
-                '       <span>' + defaultValue.name + '</span>\n' +
+            caseDefaultValues.forEach(function (defaultValue) {
+
+                caseSubButtons += '<div class="sub-button">\n' +
+                    '   <button class="button button-ml button-ml-p button--wapasha" onclick="setNewParam(\'case\',\'' + defaultValue.name + '\')">\n' +
+                    '       <span>' + defaultValue.name + '</span>\n' +
+                    '   </button>\n' +
+                    '</div>\n'
+
+            });
+
+        }
+
+        if (caseWorkDefaultValues ) {
+
+            caseWorkDefaultValues.forEach(function (defaultValue) {
+
+                caseWorkSubButtons += '<div class="sub-button">\n' +
+                    '   <button class="button button-ml button-ml-p button--wapasha" onclick="setNewParam(\'caseWork\',\'' + defaultValue.name + '\')">\n' +
+                    '       <span>' + defaultValue.name + '</span>\n' +
+                    '   </button>\n' +
+                    '</div>\n'
+
+            });
+
+        }
+
+        caseSubjectList.forEach(function (caseSubject) {
+
+            caseSubjectSubButtons += '<div class="sub-button">\n' +
+                '   <button class="button button-ml button-ml-p button--wapasha" onclick="addNewWithCaseSubject(\'' + caseSubject + '\')">\n' +
+                '       <span>' + caseSubject + '</span>\n' +
                 '   </button>\n' +
                 '</div>\n'
 
         });
 
-    }
+    }else{
 
-    if (caseWorkDefaultValues) {
+        if (caseDefaultValues ) {
 
-        caseWorkDefaultValues.forEach(function (defaultValue) {
+            caseDefaultValues.forEach(function (defaultValue) {
 
-            caseWorkSubButtons += '<div class="sub-button">\n' +
-                '   <button class="button button-ml button-ml-p button--winona" data-text="' + (defaultValue.shortcut || defaultValue.name) + '" onclick="addNew(\'caseWork\',\'' + defaultValue.name + '\')">\n' +
-                '       <span>' + defaultValue.name + '</span>\n' +
-                '   </button>\n' +
-                '</div>\n'
+                caseSubButtons += '<div class="sub-button">\n' +
+                    '   <button class="button button-ml button-ml-p button--wapasha" onclick="addNew(\'case\',\'' + defaultValue.name + '\')">\n' +
+                    '       <span>' + defaultValue.name + '</span>\n' +
+                    '   </button>\n' +
+                    '</div>\n'
 
-        });
+            });
+
+        }
+
+        if (caseWorkDefaultValues ) {
+
+            caseWorkDefaultValues.forEach(function (defaultValue) {
+
+                caseWorkSubButtons += '<div class="sub-button">\n' +
+                    '   <button class="button button-ml button-ml-p button--wapasha" onclick="addNew(\'caseWork\',\'' + defaultValue.name + '\')">\n' +
+                    '       <span>' + defaultValue.name + '</span>\n' +
+                    '   </button>\n' +
+                    '</div>\n'
+
+            });
+
+        }
 
     }
 
     headerStr = headerStr.replace("SubButtonsCaseReplace", caseSubButtons);
     headerStr = headerStr.replace("SubButtonsCaseWorkReplace", caseWorkSubButtons);
+    headerStr = headerStr.replace("SubButtonsCaseSubjectReplace", caseSubjectSubButtons);
 
     header.className = 'home-header';
     header.innerHTML = headerStr;

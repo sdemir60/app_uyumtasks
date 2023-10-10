@@ -89,8 +89,9 @@ html::-webkit-scrollbar {
 .quick-filter-span:hover,
 .quick-filter-span.active {
     cursor: pointer;
-    background: #f6f8f9;
-    border-color: #e8ecee;
+    color: #3c3c3c;
+    background: #e7ebef;
+    border-color: #a5acb5;
     border-style: solid;
 }
 

@@ -134,8 +134,6 @@ function openCase() {
 
     var cContainer = document.getElementById("iframe-1178");
     var cwContainer = document.getElementById("iframe-10783");
-    var cSubButtons = document.getElementById("sub-buttons-case");
-    var cwSubButtons = document.getElementById("sub-buttons-casework");
 
     iFrameCaseWork.contentWindow.blurLatestCell();
 
@@ -145,12 +143,11 @@ function openCase() {
     cContainer.style.transform = "translateX(0%)";
     cwContainer.style.transform = "translateX(100%)";
 
-    cSubButtons.style.transform = "translateY(0%)";
-    cwSubButtons.style.transform = "translateY(100%)";
-
     window.activePage = "Case";
     buttonCaseWork.classList.remove("hover");
     buttonCase.classList.add("hover");
+
+    switchSubButtons("case");
 
     clearTimeout(caseWorkFocusTimeout);
     caseFocusTimeout = setTimeout(function () {
@@ -163,8 +160,6 @@ function openCaseWork() {
 
     var cContainer = document.getElementById("iframe-1178");
     var cwContainer = document.getElementById("iframe-10783");
-    var cSubButtons = document.getElementById("sub-buttons-case");
-    var cwSubButtons = document.getElementById("sub-buttons-casework");
 
     iFrameCaseM.contentWindow.blurLatestCell();
 
@@ -174,12 +169,11 @@ function openCaseWork() {
     cContainer.style.transform = "translateX(-100%)";
     cwContainer.style.transform = "translateX(0%)";
 
-    cSubButtons.style.transform = "translateY(-100%)";
-    cwSubButtons.style.transform = "translateY(0%)";
-
     window.activePage = "CaseWork";
     buttonCase.classList.remove("hover");
     buttonCaseWork.classList.add("hover");
+
+    switchSubButtons("casework");
 
     clearTimeout(caseFocusTimeout);
     caseWorkFocusTimeout = setTimeout(function () {
@@ -266,6 +260,34 @@ function switchStatus(switcherEl) {
 
 }
 
+function switchSubButtons(buttonGroup) {
+
+    var cSubButtons = document.getElementById("sub-buttons-case");
+    var cwSubButtons = document.getElementById("sub-buttons-casework");
+    var csSubButtons = document.getElementById("sub-buttons-casesubject");
+
+    if (buttonGroup === 'case') {
+
+        cSubButtons.style.transform = "translateY(0%)";
+        cwSubButtons.style.transform = "translateY(100%)";
+        csSubButtons.style.transform = "translateY(100%)";
+
+    } else if (buttonGroup === 'casework') {
+
+        cSubButtons.style.transform = "translateY(-100%)";
+        cwSubButtons.style.transform = "translateY(0%)";
+        csSubButtons.style.transform = "translateY(-100%)";
+
+    } else if (buttonGroup === 'casesubject') {
+
+        cSubButtons.style.transform = "translateY(-100%)";
+        cwSubButtons.style.transform = "translateY(100%)";
+        csSubButtons.style.transform = "translateY(0%)";
+
+    }
+
+}
+
 function newClick() {
 
     if (window.activePage === 'Case') {
@@ -316,6 +338,15 @@ function copyClick() {
 
 }
 
+function setNewParam(page, type) {
+
+    window.newPage = page;
+    window.newType = type;
+
+    switchSubButtons('casesubject');
+
+}
+
 function addNew(page, type) {
 
     var url, queryString;
@@ -330,6 +361,30 @@ function addNew(page, type) {
         queryString = "&Page=" + page + "&Type=" + type;
         url = url + queryString;
     }
+
+    window.open(url, '_blank');
+
+}
+
+function addNewWithCaseSubject(caseSubject) {
+
+    var page = window.newPage;
+    var type = window.newType;
+
+    var url, queryString;
+
+    if (page === "case") {
+        url = config.get("webERP").newCase;
+    } else {
+        url = config.get("webERP").newCaseWork;
+    }
+
+    if (type) {
+        queryString = "&Page=" + page + "&CaseSubject=" + caseSubject + "&Type=" + type;
+        url = url + queryString;
+    }
+
+    switchSubButtons(page);
 
     window.open(url, '_blank');
 

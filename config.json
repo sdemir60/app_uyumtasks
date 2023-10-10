@@ -35,27 +35,25 @@
     "defaultValues": [
       {
         "name": "ALTYAPI",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
+          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CaseSubjectName": "LioX Mobil",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
-          "CustomerName": "Uyumsoft - WEB ERP",
           "CaseTypeDesc": "Altyapı",
-          "CategoryDesc1": "MOB - Genel",
-          "CaseAssignedGroupName": "Mobil Uygulama Geliştirme",
+          "CategoryDesc1": "Genel İşlemler",
+          "CaseAssignedGroupName": "Yazılım",
           "CaseAssignedUserFullName": "sinan.demir",
           "EstimatedDuration": "1",
           "EstimatedDurationUnit": "Gün",
           "EndDatePlanned": "@new Date()@",
           "Title": "",
-          "Description": "",
-          "ProjectCode": "P00999-001"
+          "Description": ""
         }
       },
       {
         "name": "PERFORMANS",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CaseStatusDesc": "İncelenecek",
@@ -63,7 +61,7 @@
           "CustomerName": "Uyumsoft - WEB ERP",
           "CaseTypeDesc": "Performans",
           "CategoryDesc1": "MOB - Genel",
-          "CaseAssignedGroupName": "Mobil Uygulama Geliştirme",
+          "CaseAssignedGroupName": "Yazılım",
           "CaseAssignedUserFullName": "sinan.demir",
           "EstimatedDuration": "1",
           "EstimatedDurationUnit": "Gün",
@@ -75,7 +73,6 @@
       },
       {
         "name": "İYİLEŞTİRME",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CaseStatusDesc": "İncelenecek",
@@ -83,7 +80,7 @@
           "CustomerName": "Uyumsoft - WEB ERP",
           "CaseTypeDesc": "İyileştirme Yazılım",
           "CategoryDesc1": "MOB - Genel",
-          "CaseAssignedGroupName": "Mobil Uygulama Geliştirme",
+          "CaseAssignedGroupName": "Yazılım",
           "CaseAssignedUserFullName": "sinan.demir",
           "EstimatedDuration": "1",
           "EstimatedDurationUnit": "Gün",
@@ -95,7 +92,6 @@
       },
       {
         "name": "HATA",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CaseStatusDesc": "İncelenecek",
@@ -103,7 +99,7 @@
           "CustomerName": "Uyumsoft - WEB ERP",
           "CaseTypeDesc": "Hata",
           "CategoryDesc1": "MOB - Genel",
-          "CaseAssignedGroupName": "Mobil Uygulama Geliştirme",
+          "CaseAssignedGroupName": "Yazılım",
           "CaseAssignedUserFullName": "sinan.demir",
           "EstimatedDuration": "1",
           "EstimatedDurationUnit": "Gün",
@@ -115,7 +111,6 @@
       },
       {
         "name": "TEST",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CaseStatusDesc": "İncelenecek",
@@ -123,7 +118,7 @@
           "CustomerName": "Uyumsoft - WEB ERP",
           "CaseTypeDesc": "Test Çalışması",
           "CategoryDesc1": "MOB - Genel",
-          "CaseAssignedGroupName": "Mobil Uygulama Geliştirme",
+          "CaseAssignedGroupName": "Yazılım",
           "CaseAssignedUserFullName": "sinan.demir",
           "EstimatedDuration": "1",
           "EstimatedDurationUnit": "Gün",
@@ -135,7 +130,6 @@
       },
       {
         "name": "GÜNCELLEME",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CaseStatusDesc": "İncelenecek",
@@ -143,7 +137,7 @@
           "CustomerName": "Uyumsoft - WEB ERP",
           "CaseTypeDesc": "Güncelleme / Kurulum",
           "CategoryDesc1": "MOB - Genel",
-          "CaseAssignedGroupName": "Mobil Uygulama Geliştirme",
+          "CaseAssignedGroupName": "Yazılım",
           "CaseAssignedUserFullName": "sinan.demir",
           "EstimatedDuration": "1",
           "EstimatedDurationUnit": "Gün",
@@ -155,7 +149,6 @@
       },
       {
         "name": "DOKÜMAN",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CaseStatusDesc": "İncelenecek",
@@ -163,7 +156,7 @@
           "CustomerName": "Uyumsoft - WEB ERP",
           "CaseTypeDesc": "Doküman Oluşturma",
           "CategoryDesc1": "MOB - Genel",
-          "CaseAssignedGroupName": "Mobil Uygulama Geliştirme",
+          "CaseAssignedGroupName": "Yazılım",
           "CaseAssignedUserFullName": "sinan.demir",
           "EstimatedDuration": "1",
           "EstimatedDurationUnit": "Gün",
@@ -175,7 +168,6 @@
       },
       {
         "name": "EĞİTİM",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CaseStatusDesc": "İncelenecek",
@@ -183,7 +175,7 @@
           "CustomerName": "Uyumsoft - WEB ERP",
           "CaseTypeDesc": "Eğitim&Danışmanlık",
           "CategoryDesc1": "MOB - Genel",
-          "CaseAssignedGroupName": "Mobil Uygulama Geliştirme",
+          "CaseAssignedGroupName": "Yazılım",
           "CaseAssignedUserFullName": "sinan.demir",
           "EstimatedDuration": "1",
           "EstimatedDurationUnit": "Gün",
@@ -195,7 +187,6 @@
       },
       {
         "name": "DANIŞMANLIK",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CaseStatusDesc": "İncelenecek",
@@ -203,7 +194,7 @@
           "CustomerName": "Uyumsoft - WEB ERP",
           "CaseTypeDesc": "Eğitim&Danışmanlık",
           "CategoryDesc1": "MOB - Genel",
-          "CaseAssignedGroupName": "Mobil Uygulama Geliştirme",
+          "CaseAssignedGroupName": "Yazılım",
           "CaseAssignedUserFullName": "sinan.demir",
           "EstimatedDuration": "1",
           "EstimatedDurationUnit": "Gün",
@@ -222,7 +213,7 @@
     "filterStatus": {
       "column": "CaseStatusDesc",
       "waitingTasks": "İncelenecek;Gelecek Versiyon;Analiz Bekleniyor;Müşteride Bekliyor",
-      "activeTasks": "Devam Ediyor;Merge Edilecek;Script Gerekli;Test Edildi (Hatalı);Test Edilecek",
+      "activeTasks": "Devam Ediyor;Merge Edilecek;Script Gerekli;Test Edildi (Hatalı);Test Edilecek;Doküman Oluşturulacak",
       "completedTask": "Test Edildi (Düzgün);İş Sonuçlandı;Rededildi"
     },
     "filterList": [
@@ -235,17 +226,17 @@
         {
           "column": "CaseAssignedUserCode",
           "key": "takım",
-          "value": "sinan.demir;yunus.simsek;mustafa.kutluk;selim.demir"
+          "value": "sinan.demir;yunus.simsek;mustafa.kutluk;selim.demir;"
         },
         {
           "column": "CaseAssignedUserCode",
           "key": "test",
-          "value": "oznur.demircioglu;ersin.cebeci;busra.demirtas;mustafa.cecen;salih.isler"
+          "value": "oznur.demircioglu;busra.demirtas;ersin.cebeci;mustafa.cecen;merve.temiz;melih.unal;merve.bahar;busra.zengin"
         },
         {
           "column": "CaseAssignedUserCode",
           "key": "rapor",
-          "value": "emrah.demirbas;mehmet.bayrakdar"
+          "value": "emrah.demirbas;"
         },
         {
           "column": "CaseAssignedUserCode",
@@ -266,7 +257,7 @@
         {
           "column": "CaseAssignedUserCode",
           "key": "selim",
-          "value": "selim.demir"
+          "value": "selim.demir;"
         }
       ],
       [
@@ -275,6 +266,11 @@
           "key": "tümü",
           "value": "",
           "default": true
+        },
+        {
+          "column": "CategoryDesc1",
+          "key": "mobil",
+          "value": "MOB"
         },
         {
           "column": "CategoryDesc1",
@@ -289,42 +285,37 @@
         {
           "column": "CategoryDesc1",
           "key": "uyumerp",
-          "value": "MOB - UyumERP"
+          "value": "MOB - uyumERP"
         },
         {
           "column": "CategoryDesc1",
           "key": "ekoticari",
-          "value": "MOB - EkoTicari"
+          "value": "MOB - ekoTicari"
         },
         {
           "column": "CategoryDesc1",
           "key": "euyum",
-          "value": "MOB - eUyum"
+          "value": "MOB - e-Uyum"
+        },
+        {
+          "column": "CategoryDesc1",
+          "key": "ekurumsal",
+          "value": "MOB - e-Kurumsal"
+        },
+        {
+          "column": "CategoryDesc1",
+          "key": "bankabakiyem",
+          "value": "MOB - Banka Bakiyem"
+        },
+        {
+          "column": "CategoryDesc1",
+          "key": "malitakvim",
+          "value": "MOB - Mali Takvim"
         },
         {
           "column": "CategoryDesc1",
           "key": "kegmerp",
           "value": "MOB - KEGMERP"
-        },
-        {
-          "column": "CategoryDesc1",
-          "key": "etimagüretim",
-          "value": "MOB - EtimagÜretim"
-        },
-        {
-          "column": "CategoryDesc1",
-          "key": "bankabakiyem",
-          "value": "MOB - BankaBakiyem"
-        },
-        {
-          "column": "CategoryDesc1",
-          "key": "uyumpos",
-          "value": "MOB - UyumPOS"
-        },
-        {
-          "column": "CategoryDesc1",
-          "key": "malitakvim",
-          "value": "MOB - MaliTakvim"
         }
       ]
     ]
@@ -334,7 +325,6 @@
     "defaultValues": [
       {
         "name": "İŞ PLANI",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -347,7 +337,6 @@
       },
       {
         "name": "MAIL / CRM",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -360,7 +349,6 @@
       },
       {
         "name": "TOPLANTI",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -372,7 +360,6 @@
       },
       {
         "name": "TELEFON",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -384,7 +371,6 @@
       },
       {
         "name": "YAZILIM",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -396,7 +382,6 @@
       },
       {
         "name": "ALTYAPI",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -408,7 +393,6 @@
       },
       {
         "name": "DESTEK",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -416,12 +400,11 @@
           "CaseTypeDesc": "Eğitim&Danışmanlık",
           "CaseWorkKindName": "Yazılım",
           "CategoryDesc1": "MOB - Genel",
-          "Note": "Devam eden işlerinde takım arkadaşlarına destek olundu."
+          "Note": "Devam eden işlerinde takım arkadaşları ile çalışıldı."
         }
       },
       {
         "name": "HATA",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -433,7 +416,6 @@
       },
       {
         "name": "VERSİYON",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -445,7 +427,6 @@
       },
       {
         "name": "EĞİTİM",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -457,7 +438,6 @@
       },
       {
         "name": "DOKÜMAN",
-        "shortcut": "",
         "values": {
           "BranchCode": "10-UYUM-01",
           "CustomerName": "Uyumsoft - WEB ERP",
@@ -480,17 +460,17 @@
         {
           "column": "CaseWorkUserCode",
           "key": "takım",
-          "value": "sinan.demir;yunus.simsek;mustafa.kutluk;selim.demir"
+          "value": "sinan.demir;yunus.simsek;mustafa.kutluk;selim.demir;"
         },
         {
           "column": "CaseAssignedUserCode",
           "key": "test",
-          "value": "oznur.demircioglu;ersin.cebeci;busra.demirtas;mustafa.cecen;salih.isler"
+          "value": "oznur.demircioglu;busra.demirtas;ersin.cebeci;mustafa.cecen;merve.temiz;melih.unal;merve.bahar;busra.zengin"
         },
         {
           "column": "CaseAssignedUserCode",
           "key": "rapor",
-          "value": "emrah.demirbas;mehmet.bayrakdar"
+          "value": "emrah.demirbas"
         },
         {
           "column": "CaseWorkUserCode",
@@ -511,7 +491,7 @@
         {
           "column": "CaseWorkUserCode",
           "key": "selim",
-          "value": "selim.demir"
+          "value": "selim.demir;"
         }
       ],
       [
@@ -533,45 +513,41 @@
         },
         {
           "column": "CategoryDesc1",
-          "key": "euyum",
-          "value": "MOB - eUyum"
-        },
-        {
-          "column": "CategoryDesc1",
           "key": "uyumerp",
-          "value": "MOB - UyumERP"
+          "value": "MOB - uyumERP"
         },
         {
           "column": "CategoryDesc1",
           "key": "ekoticari",
-          "value": "MOB - EkoTicari"
+          "value": "MOB - ekoTicari"
         },
         {
           "column": "CategoryDesc1",
-          "key": "uyumpos",
-          "value": "MOB - UyumPOS"
+          "key": "euyum",
+          "value": "MOB - e-Uyum"
+        },
+        {
+          "column": "CategoryDesc1",
+          "key": "ekurumsal",
+          "value": "MOB - e-Kurumsal"
         },
         {
           "column": "CategoryDesc1",
           "key": "bankabakiyem",
-          "value": "MOB - BankaBakiyem"
+          "value": "MOB - Banka Bakiyem"
         },
         {
           "column": "CategoryDesc1",
           "key": "malitakvim",
-          "value": "MOB - MaliTakvim"
+          "value": "MOB - Mali Takvim"
         },
         {
           "column": "CategoryDesc1",
           "key": "kegmerp",
           "value": "MOB - KEGMERP"
-        },
-        {
-          "column": "CategoryDesc1",
-          "key": "etimagüretim",
-          "value": "MOB - EtimagÜretim"
         }
       ]
     ]
-  }
+  },
+  "caseSubjectList": ["UMDP", "LioX Mobil", "LioXHR Mobil"]
 }

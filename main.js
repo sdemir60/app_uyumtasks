@@ -780,30 +780,6 @@ function createAllShortcut() {
 
         }
 
-        if (cases && cases.defaultValues) {
-
-            cases.defaultValues.forEach(function (defaultValue) {
-
-                if (defaultValue.shortcut) {
-
-                    globalShortcut.register(defaultValue.shortcut, () => {
-
-                        var args = {
-                            process: "new-case",
-                            page: "case",
-                            type: defaultValue.name
-                        };
-
-                        mainWindow.webContents.send('on-home', args);
-
-                    });
-
-                }
-
-            });
-
-        }
-
         if (caseworks && caseworks.newShortcut) {
 
             globalShortcut.register(caseworks.newShortcut, () => {
@@ -814,30 +790,6 @@ function createAllShortcut() {
                 };
 
                 mainWindow.webContents.send('on-home', args);
-
-            });
-
-        }
-
-        if (caseworks && caseworks.defaultValues) {
-
-            caseworks.defaultValues.forEach(function (defaultValue) {
-
-                if (defaultValue.shortcut) {
-
-                    globalShortcut.register(defaultValue.shortcut, () => {
-
-                        var args = {
-                            process: "new-casework",
-                            page: "caseWork",
-                            type: defaultValue.name
-                        };
-
-                        mainWindow.webContents.send('on-home', args);
-
-                    });
-
-                }
 
             });
 

@@ -129,6 +129,10 @@
     transform: translateY(100px);
 }
 
+.main-header > .sub-buttons > .sub-buttons-wrapper.sub-buttons-casesubject {
+    transform: translateY(100px);
+}
+
 .main-header > .sub-buttons > .sub-buttons-wrapper > .sub-button {
 }
 
@@ -149,15 +153,16 @@
     text-transform: uppercase;
 }
 
-.home-header.main-header .sub-button .button-ml.button-ml-p.button--winona::after {
-    color: #000000;
+.home-header.main-header .sub-button .button-ml.button-ml-p.button--wapasha::before {
     letter-spacing: 1px;
     text-transform: uppercase;
+    border: 1px solid #ffffff;
 }
 
 .home-header.main-header .sub-button button.button-ml.button-ml-p:hover {
-    background: #f6f8f9;
-    border-color: #e8ecee;
+    color: #ffffff;
+    background: #e40613;
+    border-color: #d70615;
 }
 
 /*endregion*/

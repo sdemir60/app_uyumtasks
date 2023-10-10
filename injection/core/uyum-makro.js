@@ -61,18 +61,22 @@ function SetMakro(strMakro) {
 
     var makro = "";
     var config = window.config;
-    var page, type, defaultValues;
+    var page, caseSubject, type, defaultValues;
 
     page = getParameterByName("Page");
+    caseSubject = getParameterByName("CaseSubject");
     type = getParameterByName("Type");
 
     if (page && type) {
 
-        defaultValues = config.get(page).defaultValues;
+        defaultValues = config.get(page).defaultValues || {};
 
         defaultValues.forEach(function (defaultValue) {
 
             if (defaultValue.name === type) {
+
+                if (caseSubject)
+                    defaultValue.values.CaseSubjectName = caseSubject;
 
                 for (const property in defaultValue.values) {
                     makro += " var ctrlDef = GetControl('" + property + "') ; if ( ctrlDef!= null && ctrlDef.GetEnabled() == true) { SetControlValueFire('" + property + "', '" + defaultValue.values[property] + "'); } " + "\r\n";
