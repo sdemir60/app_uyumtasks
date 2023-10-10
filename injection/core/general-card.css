@@ -1,0 +1,34 @@
+
+.card-header .card-info {
+    left: 20px;
+    right: inherit;
+}
+
+.card-header table {
+    float: right;
+}
+
+.card-header table #btnCancel {
+    display: none;
+}
+
+.genel-card.card-body .card-content {
+    padding: 20px;
+}
+
+#TabControl_grd_CaseWorkCollection table > tbody > tr > td {
+    outline: none;
+}
+
+#TabControl_grd_CaseWorkCollection table > tbody > tr[class*="dxgvFocusedRow"] > td[fieldname="Note"] {
+    overflow-wrap: break-word;
+    flex-flow: wrap;
+    white-space: break-spaces !important;
+}
+
+.form-button-edit-filter {
+    background-image: none !important;
+    border-left-width: 1px !important;
+    box-shadow: none !important;
+    background-color: white !important;
+}

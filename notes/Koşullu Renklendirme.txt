@@ -1,0 +1,13 @@
+
+{CaseStatusDesc}='Test Edilecek'
+#FFFED5 - #000000
+
+{CaseStatusDesc}='Test Edildi (Düzgün)'
+#D5FFD5 - #000000
+
+{CaseStatusDesc}='Test Edildi (Hatalı)'
+#FFD5D5 - #000000
+
+{CaseStatusDesc}='Devam Ediyor'
+#B6F5FF - #000000
+

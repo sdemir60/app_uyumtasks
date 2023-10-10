@@ -1,0 +1,428 @@
+/*region Home >> General*/
+
+.fw-600 {
+    font-weight: 600;
+}
+
+/*endregion*/
+
+/*region Home >> Titlebar*/
+
+.titlebar {
+    background-color: #ececec !important;
+    padding-left: 21px !important;
+}
+
+.titlebar > .window-appicon {
+    margin-right: -7px;
+    background-size: 17px !important;
+}
+
+.titlebar .window-title {
+    color: #696969;
+    font-weight: 600;
+    padding-top: 2px !important;
+    font-size: 11px !important;
+}
+
+.container-after-titlebar {
+    overflow: inherit !important;
+}
+
+/*endregion*/
+
+/*region Home >> MainHeader*/
+
+.home-header.main-header {
+    align-items: center;
+    background: #fff;
+    box-shadow: none;
+    display: flex;
+    flex-shrink: 0;
+    height: 55px;
+    padding: 0 24px;
+    position: relative;
+    z-index: 200;
+}
+
+.home-header.main-header .button-ml.button-ml-p {
+    height: 25px;
+    padding: 3px 15px 5px 35px;
+    margin: 15px 5px 15px 5px;
+    min-width: 90px;
+    font-size: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    background: #e40613;
+    color: #ffffff;
+    border-color: #d70615;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.home-header.main-header button.button-ml.button-ml-p:hover {
+    background: #f50615;
+}
+
+.home-header.main-header button.button-ml.button-ml-p svg {
+    width: 13px;
+    vertical-align: middle;
+}
+
+.home-header.main-header button.button-ml.button-ml-p svg path {
+    fill: #ffffff;
+}
+
+.home-header.main-header .button-ml.button-ml-p .button__icon {
+    top: 5px;
+    left: 15px;
+}
+
+.main-header > div {
+    display: inline-block;
+}
+
+.main-header > .main-buttons {
+    /*width: 250px;*/
+}
+
+.main-header > .divider {
+    width: 1px;
+    height: 24px;
+    background: #f3f4f5;
+    margin: 0 15px 0 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #e8ecee;
+}
+
+.main-header > .sub-buttons {
+    height: 100%;
+    width: calc(100% - 300px);
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.main-header > .sub-buttons::-webkit-scrollbar {
+    display: none;
+}
+
+.main-header > .sub-buttons > .sub-buttons-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    transition: transform .5s ease;
+}
+
+.main-header > .sub-buttons > .sub-buttons-wrapper.sub-buttons-case {
+    transform: translateY(0px);
+}
+
+.main-header > .sub-buttons > .sub-buttons-wrapper.sub-buttons-casework {
+    transform: translateY(100px);
+}
+
+.main-header > .sub-buttons > .sub-buttons-wrapper > .sub-button {
+}
+
+.home-header.main-header .sub-button .button-ml.button-ml-p {
+    height: 25px;
+    padding: 0 20px 0 20px;
+    margin: 15px 5px 15px 5px;
+    min-width: 150px;
+    font-size: 8px;
+    border-radius: 25px;
+    color: #333;
+    background: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e8ecee;
+    letter-spacing: 1px;
+    line-height: 8px;
+    text-transform: uppercase;
+}
+
+.home-header.main-header .sub-button .button-ml.button-ml-p.button--winona::after {
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.home-header.main-header .sub-button button.button-ml.button-ml-p:hover {
+    background: #f6f8f9;
+    border-color: #e8ecee;
+}
+
+/*endregion*/
+
+/*region Home >> SubHeader*/
+
+.home-header.sub-header {
+    background: #fff;
+    border-bottom: 0;
+    border-top: 1px solid #e8ecee;
+    box-shadow: 0 1px 4px 0 rgba(21, 27, 38, .08);
+    height: 55px;
+    padding-left: 25px;
+}
+
+.home-header.sub-header .button-ml.button-ml-p {
+    height: 25px;
+    border-radius: 2px;
+    padding: 4px;
+    margin: 15px 5px 15px 5px;
+    min-width: 90px;
+    font-size: 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.home-header.sub-header button.button-ml.button-ml-p::before {
+    border-color: #e40613;
+}
+
+.home-header.sub-header button.button-ml.button-ml-p::after {
+    background: #f6f8f9;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e8ecee;
+}
+
+.home-header.sub-header button.button-ml.button-ml-p:hover {
+    color: #e40613;
+}
+
+.home-header.sub-header button.button-ml.button-ml-p svg {
+    width: 11px;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+.home-header.sub-header button.button-ml.button-ml-p:hover svg .fa-primary {
+    fill: #e40613;
+}
+
+.home-header.sub-header button.button-ml.button-ml-p.button-delete svg {
+    width: 9px;
+    margin-top: 1px;
+}
+
+.home-header.sub-header .button-ml.button-ml-s {
+    margin: 7px 0 7px 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e8ecee;
+    line-height: 10px;
+}
+
+.home-header.sub-header button.button-ml.button-ml-s::before {
+    box-shadow: inset 0 0 0 35px #e8ecee;
+}
+
+.home-header.sub-header button.button-ml.button-ml-s::after {
+}
+
+.home-header.sub-header button.button-ml.button-ml-s:hover {
+    border-color: #ffffff;
+}
+
+.home-header.sub-header button.button-ml.button-ml-s:hover::before {
+    box-shadow: inset 0 0 0 2px #e40613;
+}
+
+.home-header.sub-header button.button-ml.button-ml-s svg {
+    width: 20px;
+    vertical-align: inherit;
+}
+
+.home-header.sub-header button.button-ml.button-ml-s:hover svg .fa-primary {
+    fill: #e40613;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-filter {
+    width: 25px;
+    height: 25px;
+    margin: 15px 5px 15px 5px;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-filter svg {
+    width: 11px;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus {
+    width: 25px;
+    height: 25px;
+    margin: 15px 25px 15px 0;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus svg {
+    width: 13px;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus svg .fa-secondary {
+    opacity: .2;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus.waiting svg .fa-primary {
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus.waiting svg .fa-secondary {
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus.active svg .fa-primary {
+    fill: #e40613;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus.active svg .fa-secondary {
+    fill: #e40613;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus.completed svg .fa-primary {
+    fill: #33de00;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus.completed svg .fa-secondary {
+    opacity: .7;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus.active:hover svg .fa-primary {
+    fill: #e40613;
+}
+
+.home-header.sub-header .button-ml.button-ml-s.button-staus.active:hover svg .fa-secondary {
+    opacity: .3;
+}
+
+/*endregion*/
+
+/*region Home >> Edit CSS (Inspiration Buttons)*/
+
+.button--shikoba.hover .button__icon,
+.button--shikoba.hover > span {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.button--shikoba.hover {
+    background: #3f51b5;
+    border-color: #3f51b5;
+    color: #fff;
+}
+
+.button--antiman > span {
+    padding-left: 5px;
+}
+
+/*endregion*/
+
+/*region Home >> Edit CSS (webERP Home)*/
+
+#frmHome {
+    width: 100%;
+    height: 100%;
+}
+
+#frmHome #app-content-loader,
+#frmHome #app-iframe-loader {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    opacity: 0 !important;
+    z-index: -9999 !important;
+    pointer-events: none;
+    visibility: collapse;
+}
+
+#frmHome header {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    opacity: 0;
+    z-index: -9999;
+    pointer-events: none;
+    visibility: collapse;
+}
+
+#frmHome #splHome_0 {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    opacity: 0;
+    z-index: -9999;
+    pointer-events: none;
+    visibility: collapse;
+}
+
+#frmHome #splHome_1_S {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    opacity: 0;
+    z-index: -9999;
+    pointer-events: none;
+    visibility: collapse;
+    border: none !important;
+}
+
+#frmHome #splHome_1 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#frmHome #splHome_1 section {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    opacity: 0;
+    z-index: -9999;
+    pointer-events: none;
+    visibility: collapse;
+    border: none !important;
+}
+
+#frmHome #splHome_1 > div,
+#frmHome #splHome_1 > div > table,
+#frmHome #splHome_1 > div > table > tbody,
+#frmHome #splHome_1 > div > table > tbody > tr,
+#frmHome #splHome_1 > div > table > tbody > tr > td,
+#frmHome #splHome_1 > div > table > tbody > tr > td > div {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#frmHome #splHome_1 iframe {
+    position: absolute !important;
+    opacity: 1 !important;
+    z-index: 1 !important;
+    display: inherit !important;
+    pointer-events: auto !important;
+}
+
+#frmHome .footer-border {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    opacity: 0;
+    z-index: -9999;
+    pointer-events: none;
+    visibility: collapse;
+    border: none !important;
+}
+
+/*endregion*/

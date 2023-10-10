@@ -1,0 +1,68 @@
+{
+  "name": "UyumTASKS",
+  "version": "2.0.0",
+  "description": "Görevlerim ve Faaliyetlerim",
+  "main": "main.js",
+  "scripts": {
+    "test": "",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "Sinan DEMİR",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.61",
+    "@electron-forge/maker-deb": "^6.0.0-beta.61",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.61",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
+    "@electron-forge/maker-zip": "^6.0.0-beta.54",
+    "electron": "^11.5.0",
+    "electron-reload": "^1.5.0"
+  },
+  "dependencies": {
+    "custom-electron-titlebar": "^3.2.5",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^8.0.1",
+    "messenger": "0.0.9",
+    "mousetrap": "^1.6.5",
+    "nconf": "^0.10.0"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "name": "UyumTASKS",
+        "appVersion": "1.5.0",
+        "appBundleId": "com.uyumsoft.uyumtasks",
+        "icon": "img/uyumtasks",
+        "ignore": [
+          ".idea",
+          ".git",
+          ".gitignore"
+        ]
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "UyumTASKS"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  }
+}

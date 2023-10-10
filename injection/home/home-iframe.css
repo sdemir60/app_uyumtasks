@@ -1,0 +1,104 @@
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.card-content {
+    padding-right: 0;
+}
+
+#LayoutUpButtons {
+    margin-left: 30px;
+    padding: 0 0 0 25px;
+    transition: margin-top .25s linear;
+}
+
+#myListPage,
+#myListDetail {
+    border: 1px solid #e8ecee;
+    border-radius: 3px;
+    box-shadow: none;
+    margin: 0 auto auto 20px;
+    background: white;
+    width: calc(100% - 45px) !important;
+}
+
+#myListPage table > tbody > tr,
+#myListPage table > tbody > tr > td,
+#myListDetail table > tbody > tr,
+#myListDetail table > tbody > tr > td {
+    outline: none;
+}
+
+#myListPage table > tbody > tr[class*="dxgvFocusedRow"] > td[fieldname="Title"],
+#myListPage table > tbody > tr[class*="dxgvFocusedRow"] > td[fieldname="CaseTitle"],
+#myListPage table > tbody > tr[class*="dxgvFocusedRow"] > td[fieldname="CustomerName"],
+#myListPage table > tbody > tr[class*="dxgvFocusedRow"] > td[fieldname="Note"],
+#myListDetail table > tbody > tr[class*="dxgvDataRow"] > td {
+    overflow-wrap: break-word;
+    flex-flow: wrap;
+    white-space: break-spaces !important;
+}
+
+#myListDetail table > tbody > tr:last-child > td {
+    border-bottom-style: none !important;
+}
+
+#myListPage .goto-page-table,
+#myListDetail .goto-page-table {
+    margin-top: 5px;
+}
+
+#myListDetail table > tbody > tr[id*="HeadersRow"],
+#myListDetail div[id*="PagerBar"] {
+    pointer-events: none !important;
+    visibility: hidden;
+    display: none;
+    z-index: -9999;
+}
+
+.quick-filter-container {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 77px;
+}
+
+.quick-filter-line {
+    width: 100%;
+    height: 30px;
+}
+
+.quick-filter-span {
+    color: #505050;
+    background: white;
+    padding: 3px 13px 3px 13px;
+    font: 7pt Tahoma;
+    margin: 0 5px 0 0;
+    border-color: #e8ecee;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 25px;
+}
+
+.quick-filter-span:hover,
+.quick-filter-span.active {
+    cursor: pointer;
+    background: #f6f8f9;
+    border-color: #e8ecee;
+    border-style: solid;
+}
+
+/*
+Koşullu renklendirme temanın renklerini eziyor.
+Farklı temalalar kullanıldığında onlar için de buraya eklemeler yapılabilir.
+*/
+.dxgvFocusedRow_Office2010Silver {
+    background: #faedb6 !important;
+    color: Black !important;
+}
