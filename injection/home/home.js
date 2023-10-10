@@ -266,19 +266,19 @@ function switchSubButtons(buttonGroup) {
     var cwSubButtons = document.getElementById("sub-buttons-casework");
     var csSubButtons = document.getElementById("sub-buttons-casesubject");
 
-    if (buttonGroup === 'case') {
+    if (buttonGroup.toLocaleLowerCase() === 'case') {
 
         cSubButtons.style.transform = "translateY(0%)";
         cwSubButtons.style.transform = "translateY(100%)";
         csSubButtons.style.transform = "translateY(100%)";
 
-    } else if (buttonGroup === 'casework') {
+    } else if (buttonGroup.toLocaleLowerCase() === 'casework') {
 
         cSubButtons.style.transform = "translateY(-100%)";
         cwSubButtons.style.transform = "translateY(0%)";
         csSubButtons.style.transform = "translateY(-100%)";
 
-    } else if (buttonGroup === 'casesubject') {
+    } else if (buttonGroup.toLocaleLowerCase() === 'casesubject') {
 
         cSubButtons.style.transform = "translateY(-100%)";
         cwSubButtons.style.transform = "translateY(100%)";
