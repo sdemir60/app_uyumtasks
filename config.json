@@ -435,6 +435,19 @@
         }
       },
       {
+        "name": "HATA",
+        "values": {
+          "BranchCode": "10-UYUM-01",
+          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CaseSubjectName": "",
+          "CaseWorkTypeName": "Çalışma",
+          "CaseTypeDesc": "Hata",
+          "CaseWorkKindName": "Yazılım",
+          "CategoryDesc1": "Genel İşlemler",
+          "Note": ""
+        }
+      },
+      {
         "name": "TEST",
         "values": {
           "BranchCode": "10-UYUM-01",
