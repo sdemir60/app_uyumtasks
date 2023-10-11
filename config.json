@@ -1,6 +1,6 @@
 {
-  "username": "",
-  "password": "",
+  "username": "sinan.demir",
+  "password": "!1qazwsx",
   "hiddenBoot": true,
   "passiveBoot": false,
   "shortcuts": {
@@ -8,7 +8,7 @@
     "uyumtasks": "CommandOrControl+Tab"
   },
   "webERP": {
-    "title": "MuhasebeCRM",
+    "title": "Muhasebe",
     "listen": 8000,
     "broadcast": 8001,
     "refreshTimeout": 180000,
@@ -241,9 +241,9 @@
     },
     "filterStatus": {
       "column": "CaseStatusDesc",
-      "waitingTasks": "İncelenecek;Gelecek Versiyon;Analiz Bekleniyor;Müşteride Bekliyor",
-      "activeTasks": "Devam Ediyor;Merge Edilecek;Script Gerekli;Test Edildi (Hatalı);Test Edilecek;Doküman Oluşturulacak",
-      "completedTask": "Test Edildi (Düzgün);İş Sonuçlandı;Rededildi"
+      "waitingTasks": "İncelenecek;Müşteride Bekliyor;Planlanacak;Değerlendirilecek;Gerçekleştirilecek",
+      "activeTasks": "Devam Ediyor;Kontrol Edilecek;Dönüş Bekleniyor;İzleniyor;Teste Gönderilecek;Dokümanlara Eklenecek;Test Edilecek;Test Edildi (Hatalı);Test Edildi (Düzgün);Merge Edilecek;Adam/Gün Bildirilecek",
+      "completedTask": "İş Sonuçlandı;Mükerrer Talep;Rededildi;Fatura Edilecek;Versiyon Bekliyor;Bilgilendirme Yapılacak"
     },
     "filterList": [
       [
