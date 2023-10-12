@@ -1,3 +1,10 @@
+# UyumTASKS
+
+UyumTASKS bir **Electron** projesidir. <br>
+Uyumsoft **LioXERP** uygulamasının **İş/Faaliyet** ekranlarını içerir ve bu ekranları çok pratik hale getirir.
+
+<br>  
+
 Kur
 ------------------
 `> npm install`
