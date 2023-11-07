@@ -37,7 +37,7 @@
         "name": "ALTYAPI",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
@@ -57,7 +57,7 @@
         "name": "PERFORMANS",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
@@ -77,7 +77,7 @@
         "name": "İYİLEŞTİRME",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
@@ -97,7 +97,7 @@
         "name": "HATA",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
@@ -117,7 +117,7 @@
         "name": "TALEP",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
@@ -137,7 +137,7 @@
         "name": "PROJE",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
@@ -157,7 +157,7 @@
         "name": "MAĞAZA",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
@@ -177,7 +177,7 @@
         "name": "DOKÜMAN",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
@@ -197,7 +197,7 @@
         "name": "GÜNCELLEME",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
@@ -217,7 +217,7 @@
         "name": "LİSANSLAMA",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseStatusDesc": "İncelenecek",
           "PriorityName": "Normal",
@@ -341,7 +341,7 @@
         "name": "PLANLAMA",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Planlama",
@@ -354,7 +354,7 @@
         "name": "e-POSTA / CRM",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Planlama",
@@ -367,7 +367,7 @@
         "name": "DESTEK",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Eğitim&Danışmanlık",
@@ -380,7 +380,7 @@
         "name": "TELEFON",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Demo / Toplantı",
@@ -393,7 +393,7 @@
         "name": "TOPLANTI",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Demo / Toplantı",
@@ -406,7 +406,7 @@
         "name": "AR-GE",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Altyapı",
@@ -419,7 +419,7 @@
         "name": "ANALİZ",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "İyileştirme Yazılım",
@@ -432,7 +432,7 @@
         "name": "YAZILIM",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "İyileştirme Yazılım",
@@ -445,7 +445,7 @@
         "name": "TASARIM",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "İyileştirme Yazılım",
@@ -458,7 +458,7 @@
         "name": "HATA",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Hata",
@@ -471,7 +471,7 @@
         "name": "TEST",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "İyileştirme Yazılım",
@@ -484,7 +484,7 @@
         "name": "DOKÜMAN",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Doküman Oluşturma",
@@ -497,7 +497,7 @@
         "name": "GÜNCELLEME",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Güncelleme / Kurulum",
@@ -510,7 +510,7 @@
         "name": "LİSANSLAMA",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Lisanslama",
@@ -523,7 +523,7 @@
         "name": "EĞİTİM / DANIŞMANLIK",
         "values": {
           "BranchCode": "10-UYUM-01",
-          "CustomerName": "Uyumsoft Bilgi Sist. Ve Tekn. Tic. A.S.",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
           "CaseSubjectName": "",
           "CaseWorkTypeName": "Çalışma",
           "CaseTypeDesc": "Eğitim&Danışmanlık",
