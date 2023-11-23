@@ -272,11 +272,6 @@
           "column": "CaseAssignedUserCode",
           "key": "selim",
           "value": "selim.demir;"
-        },
-        {
-          "column": "CaseAssignedUserCode",
-          "key": "yasin",
-          "value": "yasin.aknar"
         }
       ],
       [
@@ -557,11 +552,6 @@
           "column": "CaseWorkUserCode",
           "key": "selim",
           "value": "selim.demir;"
-        },
-        {
-          "column": "CaseWorkUserCode",
-          "key": "yasin",
-          "value": "yasin.aknar"
         }
       ],
       [
