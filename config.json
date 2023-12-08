@@ -34,6 +34,26 @@
     "quickReviewShortcut": "CommandOrControl + SHIFT + SPACE",
     "defaultValues": [
       {
+        "name": "PLANLAMA",
+        "values": {
+          "BranchCode": "10-UYUM-01",
+          "CustomerName": "Uyumsoft Bilgi Sistemleri Ve Teknolojileri Tic.A.Ş",
+          "CaseSubjectName": "",
+          "CaseStatusDesc": "İncelenecek",
+          "PriorityName": "Normal",
+          "CaseTypeDesc": "Planlama",
+          "CategoryDesc1": "Genel İşlemler",
+          "CaseResponsibleGroupName": "Yazılım",
+          "CaseResponsibleUserFullName": "sinan.demir",
+          "CaseAssignedUserFullName": "sinan.demir",
+          "EstimatedDuration": "1",
+          "EstimatedDurationUnit": "Gün",
+          "EndDatePlanned": "@new Date()@",
+          "Title": "",
+          "Description": ""
+        }
+      },
+      {
         "name": "ALTYAPI",
         "values": {
           "BranchCode": "10-UYUM-01",
