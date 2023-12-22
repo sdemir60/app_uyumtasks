@@ -229,8 +229,8 @@
           "EstimatedDuration": "1",
           "EstimatedDurationUnit": "Gün",
           "EndDatePlanned": "@new Date()@",
-          "Title": "",
-          "Description": ""
+          "Title": "X Mobil uygulamasının yeni versiyonu yayınlanacak",
+          "Description": "X Mobil uygulamasının yeni versiyonu App Gallery, Google Play ve App Store de yayınlanacak. Uygulama ile birlikte dokümanlar ve versiyon notları da güncellenecek."
         }
       },
       {
@@ -370,7 +370,7 @@
           "CaseTypeDesc": "Planlama",
           "CaseWorkKindName": "Yardım Masası & Mail İnceleme",
           "CategoryDesc1": "Genel İşlemler",
-          "Note": "Yardım masası, gelen e-postalar incelendi. e-Posta ve skype üzerinden dönüşler yapıldı."
+          "Note": "Yardım masası, gelen e-postalar incelendi. e-Posta ve teams üzerinden dönüşler yapıldı."
         }
       },
       {
