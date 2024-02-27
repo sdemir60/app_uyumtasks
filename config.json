@@ -275,7 +275,7 @@
         {
           "column": "CaseAssignedUserCode",
           "key": "takım",
-          "value": "sinan.demir;mustafa.kutluk;selim.demir;"
+          "value": "sinan.demir;mustafa.kutluk;selim.demir;hilal.biyik;"
         },
         {
           "column": "CaseAssignedUserCode",
@@ -292,6 +292,11 @@
           "column": "CaseAssignedUserCode",
           "key": "selim",
           "value": "selim.demir;"
+        },
+        {
+          "column": "CaseAssignedUserCode",
+          "key": "hilal",
+          "value": "hilal.biyik;"
         }
       ],
       [
@@ -555,7 +560,7 @@
         {
           "column": "CaseWorkUserCode",
           "key": "takım",
-          "value": "sinan.demir;mustafa.kutluk;selim.demir;"
+          "value": "sinan.demir;mustafa.kutluk;selim.demir;hilal.biyik;"
         },
         {
           "column": "CaseWorkUserCode",
@@ -572,6 +577,11 @@
           "column": "CaseWorkUserCode",
           "key": "selim",
           "value": "selim.demir;"
+        },
+        {
+          "column": "CaseWorkUserCode",
+          "key": "hilal",
+          "value": "hilal.biyik;"
         }
       ],
       [
