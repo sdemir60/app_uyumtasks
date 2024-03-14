@@ -15,6 +15,7 @@ window.addEventListener("keydown", event => {
         window.ipcRenderer.send('on-main', {
             process: 'new-casework',
             caseNumber: GetControlValue('CaseNumber'),
+            customerId: GetControlValue('CustomerId'),
             parent: 'case'
         })
         event.preventDefault();

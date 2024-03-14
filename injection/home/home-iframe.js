@@ -453,8 +453,12 @@ window.onkeydown = function (event) {
 
         myListPage.GetRowValues(myListPage.focusedRowIndex, pageConfig.caseNumber.column, function (caseNumber) {
 
-            if (caseNumber)
-                window.parent.newCaseWork(caseNumber);
+            myListPage.GetRowValues(myListPage.focusedRowIndex, "CustomerId", function (customerId) {
+
+                if (caseNumber)
+                    window.parent.newCaseWork(caseNumber, customerId || 0);
+
+            });
 
         });
 

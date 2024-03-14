@@ -264,7 +264,7 @@ function createMainWindow() {
 
                 var url, parent;
 
-                url = config.get("webERP").newCaseWork + '&caseNumber=' + args.caseNumber;
+                url = config.get("webERP").newCaseWork + '&caseNumber=' + args.caseNumber+ '&customerId=' + args.customerId;
                 parent = args.parent === "case" ? subWindow : mainWindow;
 
                 createCaseWork(url, parent);

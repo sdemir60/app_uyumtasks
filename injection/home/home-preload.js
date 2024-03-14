@@ -287,9 +287,9 @@ function autoList() {
 function addHeader() {
 
     var header, headerStr;
-    var caseConfig, caseWorkConfig,caseSubjectListConfig;
-    var caseDefaultValues, caseWorkDefaultValues,caseSubjectList;
-    var caseSubButtons, caseWorkSubButtons,caseSubjectSubButtons;
+    var caseConfig, caseWorkConfig, caseSubjectListConfig;
+    var caseDefaultValues, caseWorkDefaultValues, caseSubjectList;
+    var caseSubButtons, caseWorkSubButtons, caseSubjectSubButtons;
 
     header = document.createElement('div');
     headerStr = fs.readFileSync(path.join(__dirname, 'home-header.html'), 'utf8');
@@ -308,7 +308,7 @@ function addHeader() {
 
     if (caseSubjectList) {
 
-        if (caseDefaultValues ) {
+        if (caseDefaultValues) {
 
             caseDefaultValues.forEach(function (defaultValue) {
 
@@ -322,7 +322,7 @@ function addHeader() {
 
         }
 
-        if (caseWorkDefaultValues ) {
+        if (caseWorkDefaultValues) {
 
             caseWorkDefaultValues.forEach(function (defaultValue) {
 
@@ -346,9 +346,9 @@ function addHeader() {
 
         });
 
-    }else{
+    } else {
 
-        if (caseDefaultValues ) {
+        if (caseDefaultValues) {
 
             caseDefaultValues.forEach(function (defaultValue) {
 
@@ -362,7 +362,7 @@ function addHeader() {
 
         }
 
-        if (caseWorkDefaultValues ) {
+        if (caseWorkDefaultValues) {
 
             caseWorkDefaultValues.forEach(function (defaultValue) {
 
@@ -480,8 +480,8 @@ window.homeLoaded = function () {
     window.ipcRenderer.send('on-main', {process: 'home-loaded'})
 }
 
-window.newCaseWork = function (caseNumber) {
-    window.ipcRenderer.send('on-main', {process: 'new-casework', caseNumber: caseNumber})
+window.newCaseWork = function (caseNumber, customerId) {
+    window.ipcRenderer.send('on-main', {process: 'new-casework', caseNumber: caseNumber, customerId: customerId})
 }
 
 //endregion
