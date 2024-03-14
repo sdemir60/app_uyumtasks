@@ -453,7 +453,7 @@ window.onkeydown = function (event) {
 
         myListPage.GetRowValues(myListPage.focusedRowIndex, pageConfig.caseNumber.column, function (caseNumber) {
 
-            myListPage.GetRowValues(myListPage.focusedRowIndex, "CustomerId", function (customerId) {
+            myListPage.GetRowValues(myListPage.focusedRowIndex, pageConfig.customerId.column, function (customerId) {
 
                 if (caseNumber)
                     window.parent.newCaseWork(caseNumber, customerId || 0);

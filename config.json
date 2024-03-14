@@ -259,6 +259,9 @@
     "caseNumber": {
       "column": "CaseNumber"
     },
+    "customerId": {
+      "column": "CustomerId"
+    },
     "filterStatus": {
       "column": "CaseStatusDesc",
       "waitingTasks": "İncelenecek;Müşteride Bekliyor;Planlanacak;Değerlendirilecek;Gerçekleştirilecek",
