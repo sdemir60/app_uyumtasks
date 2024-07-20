@@ -300,6 +300,11 @@
           "column": "CaseAssignedUserCode",
           "key": "hilal",
           "value": "hilal.biyik;"
+        },
+        {
+          "column": "CaseAssignedUserCode",
+          "key": "diğer",
+          "value": "!=sinan.demir;mustafa.kutluk;selim.demir;hilal.biyik;"
         }
       ],
       [
@@ -585,6 +590,11 @@
           "column": "CaseWorkUserCode",
           "key": "hilal",
           "value": "hilal.biyik;"
+        },
+        {
+          "column": "CaseWorkUserCode",
+          "key": "diğer",
+          "value": "!=sinan.demir;mustafa.kutluk;selim.demir;hilal.biyik;"
         }
       ],
       [
