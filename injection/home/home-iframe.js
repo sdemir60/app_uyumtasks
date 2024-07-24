@@ -474,6 +474,14 @@ window.onkeydown = function (event) {
         CancelEventAll(event);
         window.parent.deleteClick();
 
+    } else if (event.ctrlKey && event.code === "KeyC") {
+
+        isOverwrite = true;
+        CancelEventAll(event);
+
+        if (latestCell)
+            navigator.clipboard.writeText(latestCell.innerText);
+
     }
 
     if (!isOverwrite)
