@@ -2,9 +2,10 @@
 
 var homeLoaded;
 var href, config, page, pageName, pageConfig;
-var latestCell, latestCellId;
+var latestCell, latestCellId, latestFocusedCell;
 var defaultFilters = [], defaultFiltersTimeout;
 var returnSelectedRowValues, generalOnKeyDown;
+var isBindDetailGridViewCellClickEvent;
 
 //endregion
 
@@ -313,6 +314,7 @@ function OnCellClick(cell) {
 
         latestCell = null;
         latestCellId = null;
+        latestFocusedCell = null;
 
         return;
 
@@ -320,6 +322,7 @@ function OnCellClick(cell) {
 
         latestCell = cell;
         latestCellId = cell.id;
+        latestFocusedCell = cell;
 
     }
 
@@ -368,6 +371,41 @@ function OnCellClick(cell) {
 
 }
 
+/// Detay grid de kopyalama işlemi için eklendi.
+/// Detayda cell değerini almak için web tarafında bir çalışma bulunamadı. Bu nedenle eklendi.
+function OnDetailGridViewCellClick(rowIndex, columnIndex) {
+
+    latestFocusedCell = myListDetail.GetRow(rowIndex).cells[columnIndex];
+
+}
+
+function BindDetailGridViewCellClickEvent() {
+
+    if (typeof myListDetail !== 'undefined' && !isBindDetailGridViewCellClickEvent) {
+
+        myListDetail.GetMainElement().addEventListener('click', function (event) {
+
+            var target = event.target;
+
+            while (target && target.tagName !== 'TD') {
+                target = target.parentNode;
+            }
+
+            if (target) {
+
+                var rowIndex = target.parentNode.rowIndex - 2;
+                var columnIndex = target.cellIndex;
+
+                OnDetailGridViewCellClick(rowIndex, columnIndex);
+
+            }
+
+        });
+
+        isBindDetailGridViewCellClickEvent = true;
+    }
+}
+
 /// Orjinal GlbEndCallback fonksiyonuna ek olarak focusLatestCell metodu çağrıldı.
 /// Liste üzerinde klavye ile hızlı ve kolay işlem yapabilmek için ekran her aktif olduğunda son kalınan cell aktif edildi.
 function GlbEndCallback(s, e) {
@@ -398,6 +436,7 @@ function GlbEndCallback(s, e) {
 
         }
 
+        BindDetailGridViewCellClickEvent();
     }
 
 }
@@ -479,8 +518,8 @@ window.onkeydown = function (event) {
         isOverwrite = true;
         CancelEventAll(event);
 
-        if (latestCell)
-            navigator.clipboard.writeText(latestCell.innerText);
+        if (latestFocusedCell)
+            navigator.clipboard.writeText(latestFocusedCell.innerText);
 
     }
 
