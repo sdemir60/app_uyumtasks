@@ -298,15 +298,9 @@
       ],
       [
         {
-          "column": "CaseSubjectName",
-          "key": "tümü",
-          "value": "",
-          "default": true
-        },
-        {
-          "column": "CaseSubjectName",
+          "column": "Title",
           "key": "umdp",
-          "value": "UMDP"
+          "value": "UMDP-"
         },
         {
           "column": "CaseSubjectName",
