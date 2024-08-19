@@ -261,11 +261,6 @@
       [
         {
           "column": "CaseAssignedUserCode",
-          "key": "tümü",
-          "value": ""
-        },
-        {
-          "column": "CaseAssignedUserCode",
           "key": "takım",
           "value": "sinan.demir;mustafa.kutluk;selim.demir;hilal.biyik;"
         },
@@ -545,11 +540,6 @@
       [
         {
           "column": "CaseWorkUserCode",
-          "key": "tümü",
-          "value": ""
-        },
-        {
-          "column": "CaseWorkUserCode",
           "key": "takım",
           "value": "sinan.demir;mustafa.kutluk;selim.demir;hilal.biyik;"
         },
@@ -582,15 +572,9 @@
       ],
       [
         {
-          "column": "CaseSubjectName",
-          "key": "tümü",
-          "value": "",
-          "default": true
-        },
-        {
-          "column": "CaseSubjectName",
+          "column": "CaseTitle",
           "key": "umdp",
-          "value": "UMDP"
+          "value": "UMDP-"
         },
         {
           "column": "CaseSubjectName",
